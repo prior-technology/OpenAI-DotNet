@@ -47,6 +47,8 @@ namespace OpenAI
             CompletionEndpoint = new CompletionEndpoint(this);
             SearchEndpoint = new SearchEndpoint(this);
             ClassificationEndpoint = new ClassificationEndpoint(this);
+            FilesEndpoint = new FilesEndpoint(this);
+            AnswersEndpoint = new AnswersEndpoint(this);
         }
 
         /// <summary>
@@ -109,6 +111,10 @@ namespace OpenAI
         /// classification or text-to-label task.
         /// </summary>
         public ClassificationEndpoint ClassificationEndpoint { get; }
+
+        public FilesEndpoint FilesEndpoint { get; }
+
+        public AnswersEndpoint AnswersEndpoint { get; }
 
         /// <summary>
         /// <see cref="HttpClient"/> to use when making calls to the API.
