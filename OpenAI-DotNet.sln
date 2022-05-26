@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI-DotNet", "OpenAI-DotNet\OpenAI-DotNet.csproj", "{76B6480E-154A-4341-B530-AFE04B254360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI-DotNet", "OpenAI-DotNet\OpenAI-DotNet-QA.csproj", "{76B6480E-154A-4341-B530-AFE04B254360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

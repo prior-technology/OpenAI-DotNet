@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpenAI-DotNet\OpenAI-DotNet.csproj" />
+    <ProjectReference Include="..\OpenAI-DotNet\OpenAI-DotNet-QA.csproj" />
   </ItemGroup>
 
 </Project>
